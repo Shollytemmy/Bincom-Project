@@ -1,0 +1,87 @@
+.container{
+    /* height: 100vh; */
+    outline: 2px solid green;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    justify-content: end;
+}
+
+.navbar > .nav_ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    margin-right: 50px;
+    outline: 2px solid red;
+}
+
+.nav_ul > li > a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 42.19px;
+
+
+}
+
+.hero{
+    position: relative;
+}
+
+.hero-text{
+    /* outline: 1px solid red; */
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    height: 300px;
+    width: 900px;
+    /* margin: auto; */
+
+}
+
+.hello{
+    position: absolute;
+    top: 30px;
+    font-weight: 300;
+font-size: 96px;
+line-height: 112px;
+color: #000000;
+text-shadow: 2px 2px 4px #000000;
+}
+
+.iam{
+    position: absolute;
+    top: 100px;
+    font-weight: 300;
+font-size: 96px;
+line-height: 112px;
+color: rgba(0, 109, 119, 1);
+text-shadow: 2px 2px 4px #000000;
+}
+
+.para{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    width: 954px;
+    font-weight: 300;
+font-size: 36px;
+line-height: 42px;
+}
+
+.border{
+    border: 4px solid #006D77;
+    position: absolute;
+    width: 881px;
+    height: 0px;
+    left: 460px;   
+    top: 570px; 
+}
