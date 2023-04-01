@@ -2,13 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background: url('/img/WebView.png'); */
    font-family: 'Roboto', sans-serif;
    
-}
-
-.container{
-    
 }
 
 .navbar{
@@ -105,9 +100,6 @@ table td{
     line-height: 42.19px;
     
 }
-.skills, .right{
-
-}
 
 .work{
     margin-left: 30px;
@@ -130,7 +122,6 @@ table td{
 
 .work .left .arr{
 background: url('/img/arrow1.png');
-/* transform: matrix(0.92, -0.4, -0.4, -0.92, 0, 0); */
 width: 320.2px;
 height: 200px;
 background-size: contain;
@@ -144,8 +135,6 @@ left: 0px
     border: none;
     background: rgba(131, 197, 190, 1);
     border-radius: 5px;
-    
-    /* padding: 16px 30px; */
     
 
 }
